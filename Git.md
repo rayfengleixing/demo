@@ -16,8 +16,8 @@
 if it will lose some modify, git will tell you to make sure
 - `git branch -D foo` to ignore it
 
-- `git remote add origin https://github.com/rayfengleixing/***.git` 
-- `git push --set-upstream origin master` 
+- `git remote add origin https://github.com/rayfengleixing/***` 
+- `git push --set-upstream-to=origin/master master` 
 
 - `git ocnfig credential.helper store` before `git push` , git can remember who you are, you will not be write name and passwd again.
 
